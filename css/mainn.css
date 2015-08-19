@@ -78,7 +78,7 @@ body > section,
 }
 
 .sec-title h2 {
-  color: #D0EB0F;
+  color: #ccc;
   font-size: 28px;
   font-weight: 800;
   text-transform: uppercase;
@@ -100,13 +100,13 @@ body > section,
 }
 
 .devider i {
-  color: #cccccc;
+  color: #D0EB0F;
 }
 
 .devider:before,
 .devider:after {
   content: "______________________";
-  color: #e6e8ea;
+  color: #D0EB0F;
   position: relative;
   bottom: 6px;
 }

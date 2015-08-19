@@ -30,7 +30,7 @@
         <link rel="stylesheet" href="css/media-queries.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
-	<body class="landing">
+	<body class="landing" id="body">
 		<div id="page-wrapper">
 			<header id="navigation" class="navbar-fixed-top navbar">
             <div class="container">
@@ -55,10 +55,10 @@
                 <nav class="collapse navbar-collapse navbar-right" role="navigation">
                     <ul id="nav" class="nav navbar-nav">
                         <li class="current"><a href="#body">Home</a></li>
-                        <li><a href="#features">Features</a></li>
+                        <li><a href="#services">Services</a></li>
                         <li><a href="#works">Work</a></li>
                         <li><a href="#team">Team</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#facts">Facts</a></li>
                     </ul>
                 </nav>
 				<!-- /main nav -->
@@ -121,54 +121,15 @@
 						</div>
 					</div>
 					<!-- end single slide -->
-					
+					<a href="#one" class="goto-next scrolly">Next</a>
 				</div>
 				<!-- End Wrapper for slides -->
 				
 			</div>
 		</section>
-			<!-- Header --
-				<header id="header">
-					<h1 id="logo"><a href="index.html">Landed</a></h1>
-					<nav id="nav">
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li>
-								<a href="#">Layouts</a>
-								<ul>
-									<li><a href="left-sidebar.html">Left Sidebar</a></li>
-									<li><a href="right-sidebar.html">Right Sidebar</a></li>
-									<li><a href="no-sidebar.html">No Sidebar</a></li>
-									<li>
-										<a href="#">Submenu</a>
-										<ul>
-											<li><a href="#">Option 1</a></li>
-											<li><a href="#">Option 2</a></li>
-											<li><a href="#">Option 3</a></li>
-											<li><a href="#">Option 4</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li><a href="elements.html">Elements</a></li>
-							<li><a href="#" class="button special">Sign Up</a></li>
-						</ul>
-					</nav>
-				</header>
+		<!--End Home Slider
+        ==================================== -->
 
-			<!-- Banner ->
-				<section id="banner">
-					<div class="content">
-						<header>
-							<h2>The future has landed</h2>
-							<p>And there are no hoverboards or flying cars.<br />
-							Just apps. Lots of mother flipping apps.</p>
-						</header>
-						<span class="image"><img src="images/pic01.jpg" alt="" /></span>
-					</div>
-					<a href="#one" class="goto-next scrolly">Next</a>
-				</section>
-				-->
 
 
 
@@ -176,16 +137,16 @@
 			<!-- One -->
 				<section id="one" class="spotlight style1 bottom">
 					<span class="image fit main"><img src="images/pic02.jpg" alt="" /></span>
-					<div class="content">
+					<div class="content yellow-dark-gray">
 						<div class="container">
 							<div class="row">
-								<div class="4u 12u$(medium)">
+								<div class="fill">
 									<header>
-										<h2 class="h-landed">Odio faucibus ipsum integer consequat</h2>
-										<p>Nascetur eu nibh vestibulum amet gravida nascetur praesent</p>
+										<h2 class="h-landed text-center">Hacemos magia con tus ideas</h2>
+										
 									</header>
 								</div>
-								<div class="4u 12u$(medium)">
+								<!--div class="4u 12u$(medium)">
 									<p>Feugiat accumsan lorem eu ac lorem amet sed accumsan donec.
 									Blandit orci porttitor semper. Arcu phasellus tortor enim mi
 									nisi praesent dolor adipiscing. Integer mi sed nascetur cep aliquet
@@ -198,66 +159,68 @@
 									Arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer
 									mi sed nascetur cep aliquet augue varius tempus. Feugiat lorem
 									ipsum dolor nullam.</p>
-								</div>
+								</div-->
 							</div>
 						</div>
 					</div>
-					<a href="#two" class="goto-next scrolly">Next</a>
+					<a href="#services" class="goto-next scrolly">Next</a>
 				</section>
 
-			<!-- Two -->
-				<section id="two" class="spotlight style2 right">
-					<span class="image fit main"><img src="images/pic03.jpg" alt="" /></span>
-					<div class="content">
-						<header>
-							<h2 class="h-landed">Interdum amet non magna accumsan</h2>
-							<p>Nunc commodo accumsan eget id nisi eu col volutpat magna</p>
-						</header>
-						<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
-						<ul class="actions">
-							<li><a href="#" class="button">Learn More</a></li>
-						</ul>
+			<section id="services" class="wrapper style1 special fade-up">
+					<div class="container">
+					<div class="row">
+						<div class="sec-title text-center wow fadeInUp animated" data-wow-duration="700ms">
+						<h2 class="h-brandi">Services</h2>
+						<div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+						</div>
+						<div class="sec-sub-title text-center">
+						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
 					</div>
-					<a href="#three" class="goto-next scrolly">Next</a>
+						<div class="box alt">
+							<div class="row uniform">
+								<section class="4u 6u(medium) 12u$(xsmall)">
+									<span class="icon alt major fa-area-chart"></span>
+									<h3>Ipsum sed commodo</h3>
+									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+								</section>
+								<section class="4u 6u$(medium) 12u$(xsmall)">
+									<span class="icon alt major fa-comment"></span>
+									<h3>Eleifend lorem ornare</h3>
+									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+								</section>
+								<section class="4u$ 6u(medium) 12u$(xsmall)">
+									<span class="icon alt major fa-flask"></span>
+									<h3>Cubilia cep lobortis</h3>
+									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+								</section>
+								<section class="4u 6u$(medium) 12u$(xsmall)">
+									<span class="icon alt major fa-paper-plane"></span>
+									<h3>Non semper interdum</h3>
+									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+								</section>
+								<section class="4u 6u(medium) 12u$(xsmall)">
+									<span class="icon alt major fa-file"></span>
+									<h3>Odio laoreet accumsan</h3>
+									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+								</section>
+								<section class="4u$ 6u$(medium) 12u$(xsmall)">
+									<span class="icon alt major fa-lock"></span>
+									<h3>Massa arcu accumsan</h3>
+									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+								</section>
+							</div>
+						</div>
+					</div>
+					</div>
 				</section>
 
-			<!-- Three -->
-				<section id="three" class="spotlight style3 left">
-					<span class="image fit main bottom"><img src="images/pic04.jpg" alt="" /></span>
-					<div class="content">
-						<header>
-							<h2 class="h-landed">Interdum felis blandit praesent sed augue</h2>
-							<p>Accumsan integer ultricies aliquam vel massa sapien phasellus</p>
-						</header>
-						<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
-						<ul class="actions">
-							<li><a href="#" class="button">Learn More</a></li>
-						</ul>
-					</div>
-					<a href="#twos" class="goto-next scrolly">Next</a>
-				</section>
-			<!-- Two -->
-				<section id="twos" class="spotlight style2 right">
-					<span class="image fit main"><img src="images/pic03.jpg" alt="" /></span>
-					<div class="content">
-						<header>
-							<h2 class="h-landed">Interdum amet non magna accumsan</h2>
-							<p>Nunc commodo accumsan eget id nisi eu col volutpat magna</p>
-						</header>
-						<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
-						<ul class="actions">
-							<li><a href="#" class="button">Learn More</a></li>
-						</ul>
-					</div>
-					<a href="#four" class="goto-next scrolly">Next</a>
-				</section>
 			<!--
         Our Works
         ==================================== -->
 		
 
 		
-		<section id="works" class="works clearfix section-brandi">
+		<section id="works" class="works clearfix section-brandi yellow-dark-gray">
 			<div class="container cont-brandi">
 				<div class="row">
 			
@@ -365,23 +328,9 @@
         <!--
         End Our Works
         ==================================== -->
-
+  
 			
-			<!-- Three -->
-				<section id="three" class="spotlight style3 left">
-					<span class="image fit main bottom"><img src="images/pic04.jpg" alt="" /></span>
-					<div class="content">
-						<header>
-							<h2 class="h-landed">Interdum felis blandit praesent sed augue</h2>
-							<p>Accumsan integer ultricies aliquam vel massa sapien phasellus</p>
-						</header>
-						<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
-						<ul class="actions">
-							<li><a href="#" class="button">Learn More</a></li>
-						</ul>
-					</div>
-					<a href="#twos" class="goto-next scrolly">Next</a>
-				</section>
+
 			<!--
         Meet Our Team
         ==================================== -->		
@@ -482,7 +431,97 @@
         <!--
         End Meet Our Team
         ==================================== -->
+
+
+        <section id="facts" class="spotlight style1 bottom">
+					<span class="image fit main"><img src="images/pic02.jpg" alt="" /></span>
+					<div class="content yellow-dark-gray">
+						<div class="container">
+							<div class="row">
+								<div class="4u 12u$(medium)">
+									<header>
+										<h2>Odio faucibus ipsum integer consequat</h2>
+										<p>Nascetur eu nibh vestibulum amet gravida nascetur praesent</p>
+									</header>
+								</div>
+								<div class="4u 12u$(medium)">
+									<p>Feugiat accumsan lorem eu ac lorem amet sed accumsan donec.
+									Blandit orci porttitor semper. Arcu phasellus tortor enim mi
+									nisi praesent dolor adipiscing. Integer mi sed nascetur cep aliquet
+									augue varius tempus lobortis porttitor accumsan consequat
+									adipiscing lorem dolor.</p>
+								</div>
+								<div class="4u$ 12u$(medium)">
+									<p>Morbi enim nascetur et placerat lorem sed iaculis neque ante
+									adipiscing adipiscing metus massa. Blandit orci porttitor semper.
+									Arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer
+									mi sed nascetur cep aliquet augue varius tempus. Feugiat lorem
+									ipsum dolor nullam.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#two" class="goto-next scrolly">Next</a>
+				</section>
+
+			<footer id="footer" class="footer">
+			<div class="container">
+				<div class="row">
+				
+					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms">
+						<div class="footer-single">
+							<img src="img/footer-logo.png" alt="">
+							<p>eusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						</div>
+					</div>
+				
+					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
+						<div class="footer-single">
+							<h6>Subscribe </h6>
+							<form action="#" class="subscribe">
+								<input type="text" name="subscribe" id="subscribe">
+								<input type="submit" value="&#8594;" id="subs">
+							</form>
+							<p>eusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+						</div>
+					</div>
+				
+					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
+						<div class="footer-single">
+							<h6>Explore</h6>
+							<ul>
+								<li><a href="#">Inside Us</a></li>
+								<li><a href="#">Flickr</a></li>
+								<li><a href="#">Google</a></li>
+								<li><a href="#">Forum</a></li>
+							</ul>
+						</div>
+					</div>
+				
+					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
+						<div class="footer-single">
+							<h6>Support</h6>
+							<ul>
+								<li><a href="#">Contact Us</a></li>
+								<li><a href="#">Market Blog</a></li>
+								<li><a href="#">Help Center</a></li>
+								<li><a href="#">Pressroom</a></li>
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<p class="copyright text-center">
+							Copyright © 2015 <a href="http://themefisher.com/">Themefisher</a>. All rights reserved. Designed & developed by <a href="http://themefisher.com/">Themefisher</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
 			<!-- Footer -->
+
 				<footer id="footer">
 					<ul class="icons">
 						<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>

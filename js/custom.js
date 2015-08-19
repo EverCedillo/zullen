@@ -16,7 +16,7 @@ $(document).ready(function(){
 	/* ========================================================================= */
 
 	jQuery('#nav').singlePageNav({
-		offset: jQuery('#nav').outerHeight(),
+		offset: 0,//jQuery('#nav').outerHeight(),
 		filter: ':not(.external)',
 		speed: 1200,
 		currentClass: 'current',
@@ -32,9 +32,9 @@ $(document).ready(function(){
 	
     $(window).scroll(function () {
         if ($(window).scrollTop() > 400) {
-            $("#navigation").css("background-color","#000");
+            $("#navigation").css("background-color","rgba(2, 2, 0, .9");
         } else {
-            $("#navigation").css("background-color","rgba(11, 11, 15, 0.2)");
+            $("#navigation").css("background-color","rgba(2, 2, 0, 0.2)");
         }
     });
 	
